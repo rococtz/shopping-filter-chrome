@@ -1,0 +1,19 @@
+{
+  "name": "Shopping filter",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Shopping filter",
+  "homepage_url": "https://github.com/rococtz",
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_title": "Shopping filter"
+  },
+  "permissions": [
+    "activeTab"
+  ]
+}
